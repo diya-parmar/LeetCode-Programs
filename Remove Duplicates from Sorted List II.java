@@ -14,7 +14,7 @@ class Solution {
             if(prev.next != head){
                 prev.next = head.next;
             }else{
-                prev = head.next;
+                prev = prev.next;
             }
             head = head.next;
         }
